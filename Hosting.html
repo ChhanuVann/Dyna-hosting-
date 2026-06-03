@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"
+    <title></title>
+    </head>
+    <body>
+        <table border="1" style="width: 50%;">
+            <thead>
+                <tr style="background-color: rgb(227, 196, 255);">
+                    <th>Name</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td>
+                        <input type="text" name="name" style="width:100%;">
+                    </td>
+                </tr>
+                    <td>Sex</td>
+                    <td>
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" name="status">
+                        <br>
+                        <label for="female">Female</label>
+                        <input type="radio" id="female" name="status">
+                    </td>
+            </tbody>
+                <tr>
+                    <td>Eye color</td>
+                    <td>
+                    <select>
+                    <option value="green">Green</option>
+                    <option value="yellow">yellow</option>
+                    <option value="write">Write</option>
+                    </select> 
+                </tr>
+                    <td>Check all that apply</td>
+                    <td>
+                    <label for="over 6 feet tall">Over 6 feet tall</label>
+                    <input type="checkbox">
+                    <br>
+                    <label for="over 200 pounds">Over 200 pounds</label>
+                    <input type="checkbox">  
+                <tr>
+                    <td>Describe your athletic ability:</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <textarea rows="8" style="width:100%;"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="3" style="text-align:center;">
+                       <button type="submit">Enter my information</button>
+                    </td>
+                </tr>
+        </table>
+    </body>
